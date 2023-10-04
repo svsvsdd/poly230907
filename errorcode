@@ -1,0 +1,17 @@
+error
+
+
+/usr/lib/python3/dist-packages/gpiozero/output_devices.py:1532: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+  warnings.warn(PWMSoftwareFallback(
+Traceback (most recent call last):
+  File "/home/shin/Desktop/project opencvservofan/opencvservofan.py", line 73, in <module>
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+cv2.error: OpenCV(3.4.11) /tmp/pip-wheel-l3esv32c/opencv-python_9a095a08f9d24f90bbd71175b612f905/opencv/modules/objdetect/src/cascadedetect.cpp:1729: error: (-215:Assertion failed) !empty() in function 'detectMultiScale'
+
+
+
+ error: (-215:Assertion failed) !empty() in function 'detectMultiScale'
+
+
+
+
